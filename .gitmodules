@@ -1,0 +1,3 @@
+[submodule "fire-visualization"]
+	path = fire-visualization
+	url = git@github.com:kacienk/fire-visualization.git
