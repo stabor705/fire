@@ -5,5 +5,4 @@
 [submodule "fire-configurations"]
 	path = fire-configurations
 	url = git@github.com:kacienk/fire-configurations.git
-[submodule "fire-configuration"]
 	branch = main
