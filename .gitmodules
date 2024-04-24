@@ -1,3 +1,8 @@
 [submodule "fire-visualization"]
 	path = fire-visualization
 	url = git@github.com:kacienk/fire-visualization.git
+	branch = main
+[submodule "fire-configurations"]
+	path = fire-configurations
+	url = git@github.com:kacienk/fire-configurations.git
+	branch = main
