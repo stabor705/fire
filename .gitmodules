@@ -6,3 +6,6 @@
 	path = fire-configurations
 	url = git@github.com:kacienk/fire-configurations.git
 	branch = main
+[submodule "fire-backend"]
+	path = fire-backend
+	url = git@github.com:stabor705/fire-backend.git
