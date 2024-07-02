@@ -49,3 +49,7 @@ Ostatnim etapem było stworzenie przejrzystego interfejsu użytkownika umożliwi
 Miałem również wkład w otwieranie nowej konfiguracji w programie.
 
 Dodatkowo, napisałem wszystkie funkcje odpowiadające za połączenie serwisu bazodanowego i aplikacji.
+
+Raport z analizy SonarQube dla `fire-configurations`:
+<img width="1367" alt="image" src="https://github.com/stabor705/fire/assets/92469475/bbb495a5-5683-4c03-9a62-ebd41ff6e626">
+
