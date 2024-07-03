@@ -57,3 +57,20 @@ Dodatkowo, napisałem wszystkie funkcje odpowiadające za połączenie serwisu b
 Raport z analizy SonarQube dla `fire-configurations`:
 <img width="1367" alt="image" src="https://github.com/stabor705/fire/assets/92469475/bbb495a5-5683-4c03-9a62-ebd41ff6e626">
 
+# Stanisław Borowy
+Stworzenie modeli w symulacji:
+Najpierw zająłem się zamodelowaniem konfiguracji wczytywanej jako stan początkowy aplikacji w wizualizacji
+
+Formularz konfiguracji
+Potem zająłem się dodaniem formularza do edycji i wyświetlania konfiguracji w wizualizacji. Nie było to zadanie łatwe - konfiguracja jest bardzo złożoną strukturą danych. W jej wnętrzu znajdują się pola zagnieżdżone i dynamiczne listy tych pól. Trzeba było system zaprogramować tak, aby formularz był łatwy w obsłudze i rozszerzaniu, co pomimo nieudanych pierwszych prób w końcu się udało osiągnąć.
+
+Backend
+Potem zająłem się częścią backendową. Sam stworzyłem i napisałem od zera nowy projekt w Javowym frameworku Spring. Jego główne cechy:
+- Przychowywanie modelu konfiguracji
+- Obsługa wiadomości RabbitMQ
+- Przechowywanie aktualnego stanu symulacji
+- Aktualizowanie tego stanu na podstawie przychodzących wiadomości RabbitMQ
+- Umożliwienie subskrypcji tego stanu przez wizualizację za pomocą Server Sent Events
+
+Główną trudnością w tej części moich prac była czasochłonność zamodelowania wszystkich danych z jakimi się system spotyka, nauka obsługi RabbitMQ oraz walidacja poprawnego działania programu.
+
