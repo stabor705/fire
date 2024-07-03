@@ -21,7 +21,11 @@ Po zakończeniu pracy nad modułem wizualizacji, zintegrowałem trzy moduły: wi
 
 Wykonałem również statyczną analizę kodu w module wizualizacji, której wyniki są zamieszczone poniżej:
 
-TODO zrobić zrzuty ekranu z SonarQube'a
+Raport z analizy SonarQube dla `fire-visualization`:
+<img width="1512" alt="SonarQube_fire-visualization_overview" src="https://github.com/stabor705/fire/assets/92731319/0fa08e91-6c13-49f6-aba9-fe0cdc885670">
+<img width="1512" alt="SonarQube_fire-visualization_activity" src="https://github.com/stabor705/fire/assets/92731319/aaf3cbe8-5f87-4d10-9f07-f37cb1021f57">
+<img width="1512" alt="SonarQube_fire-visualization_issues_1" src="https://github.com/stabor705/fire/assets/92731319/1b2e5c91-fa35-46b6-892c-2bae3b92177e">
+<img width="1512" alt="SonarQube_fire-visualization_activity" src="https://github.com/stabor705/fire/assets/92731319/c55f0137-7517-43c5-b0af-98d263b89fdf">
 
 ## Kacper Cienkosz
 
